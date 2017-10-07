@@ -40,7 +40,6 @@ let copy2 = selectiveClone(obj, 'nested1.prop1');
 obj.nested1 === copy1.nested1 // false
 obj.nested2 === copy1.nested3 // true
 
-#
 let copy3 = selectiveClone(obj, 'nested', 'nested2');
 obj.nested1 === copy1.nested1 // false
 obj.nested2 === copy1.nested3 // false
