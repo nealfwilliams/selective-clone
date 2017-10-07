@@ -7,8 +7,10 @@ This library works similarly to [dot-prop-immutable](https://github.com/debitoor
 
 ## Installation
 This package is available via npm.
+```
 npm install --save selective-clone
 yarn add selective-clone
+```
 
 ## Usage
 Selective clone essentially makes a clone of an object with specified properties deep copied.  
